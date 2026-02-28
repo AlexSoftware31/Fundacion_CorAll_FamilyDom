@@ -35,7 +35,7 @@ const Brands = () => {
               href="/donar"
               className="rounded-full bg-amber-600 px-8 py-3 font-semibold text-white transition duration-300 hover:bg-amber-600"
             >
-              DONAR
+              Dona y Regala Latidos
             </Link>
           </div>
         </div>

@@ -11,7 +11,7 @@ const teamTwoData: Blog[] = [
   },
   {
     _id: 2,
-    mainImage: "/images/blog/org/org2-2.png",
+    mainImage: "/images/blog/org/org2-22.jpeg",
     title: "Lic. Hally Kosiris Sánchez",
     slug: "Coordinadora de Proyectos Sociales",
     metadata:
@@ -19,7 +19,7 @@ const teamTwoData: Blog[] = [
   },
   {
     _id: 3,
-    mainImage: "/images/blog/org/org2-3.png",
+    mainImage: "/images/blog/org/org2-33.jpeg",
     title: "Lic. Sally Kosiris Sánchez",
     slug: "Community Manager",
     metadata:

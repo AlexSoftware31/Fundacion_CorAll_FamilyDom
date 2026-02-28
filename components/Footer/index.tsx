@@ -30,16 +30,16 @@ const Footer = () => {
               >
                 <a href="/" className="relative">
                   <Image
-                    width={160}
+                    width={180}
                     height={80}
-                    src="/images/logo/logo.png"
+                    src="/images/logo/logo_img.png"
                     alt="Logo"
                     className="dark:hidden"
                   />
                   <Image
-                    width={160}
+                    width={180}
                     height={80}
-                    src="/images/logo/logo.png"
+                    src="/images/logo/logo_img.png"
                     alt="Logo"
                     className="hidden dark:block"
                   />
@@ -190,7 +190,7 @@ const Footer = () => {
                     Donaciones
                   </h4>
                   <p className="mb-4 w-[90%]">
-                    Su contribución tendra impacto real en nuestros niños y niñas.
+                    Dona y regala latidos.
                   </p>
                 </motion.div>
               </div>

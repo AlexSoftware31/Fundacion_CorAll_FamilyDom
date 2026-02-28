@@ -39,14 +39,14 @@ const Header = () => {
         <div className="flex w-full items-center justify-between xl:w-1/4">
           <a href="/">
             <Image
-              src="/images/logo/logo.png"
+              src="/images/logo/logo_img.png"
               alt="logo"
               width={150.03}
               height={50}
               className="hidden w-full dark:block"
             />
             <Image
-              src="/images/logo/logo.png"
+              src="/images/logo/logo_img.png"
               alt="logo"
               width={150.03}
               height={50}
@@ -99,7 +99,7 @@ const Header = () => {
         <div
           className={`invisible h-0 w-full items-center justify-between xl:visible xl:flex xl:h-auto xl:w-full ${
             navigationOpen &&
-            "navbar shadow-solid-5 dark:bg-blacksection visible! mt-4 h-auto max-h-[400px] rounded-md bg-white p-7.5 xl:h-auto xl:p-0 xl:shadow-none xl:dark:bg-transparent"
+            "navbar shadow-solid-5 dark:bg-blacksection visible! mt-4 h-auto max-h-100 rounded-md bg-white p-7.5 xl:h-auto xl:p-0 xl:shadow-none xl:dark:bg-transparent"
           }`}
         >
           <nav>
@@ -110,12 +110,12 @@ const Header = () => {
                     <>
                       <button
                         onClick={() => setDropdownToggler(!dropdownToggler)}
-                        className="hover:text-amber-600 flex cursor-pointer items-center justify-between gap-3"
+                        className="flex cursor-pointer items-center justify-between gap-3 hover:text-amber-600"
                       >
                         {menuItem.title}
                         <span>
                           <svg
-                            className="fill-blackho group-hover:fill-amber-600 h-3 w-3 cursor-pointer"
+                            className="fill-blackho h-3 w-3 cursor-pointer group-hover:fill-amber-600"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 512 512"
                           >
@@ -163,9 +163,9 @@ const Header = () => {
 
             <Link
               href="/donar"
-              className="bg-amber-600 text-regular hover:bg-amber-500 flex items-center justify-center rounded-full px-7.5 py-2.5 text-white duration-300 ease-in-out"
+              className="text-regular flex items-center justify-center rounded-full bg-amber-600 px-7.5 py-2.5 text-white duration-300 ease-in-out hover:bg-amber-500"
             >
-              DONAR
+              Dona y Regala Latidos
             </Link>
           </div>
         </div>

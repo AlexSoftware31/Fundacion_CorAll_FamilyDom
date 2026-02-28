@@ -3,7 +3,7 @@ import { Blog } from "@/types/blog";
 const teamOneData: Blog[] = [
   {
     _id: 1,
-    mainImage: "/images/blog/org/orgPrimary11.png",
+    mainImage: "/images/blog/org/org1-1.png",
     title: "Dra. Evelin Katherine Medina Feliz",
     slug: "Presidenta",
     metadata:
