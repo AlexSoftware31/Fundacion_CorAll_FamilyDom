@@ -26,16 +26,16 @@ const About = () => {
               whileInView="visible"
               transition={{ duration: 0.5, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_left relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
+              className="animate_left relative mx-auto hidden aspect-588/526.5 md:block md:w-1/2"
             >
               <Image
-                src="/images/about/fundacion1.jpg"
+                src="/images/about/fundacion11.png"
                 alt="About"
                 className="dark:hidden"
                 fill
               />
               <Image
-                src="/images/about/fundacion.jpg"
+                src="/images/about/fundacion11.png"
                 alt="About"
                 className="hidden dark:block"
                 fill
@@ -69,9 +69,9 @@ const About = () => {
                 className="text-3x1 xl:text-hero relative mr-6 mb-6 font-bold text-amber-600 dark:text-white"
                 style={{ fontSize: "30px" }}
               >
-                ¿QUIENES SOMOS?
+                ¿QUIÉNES SOMOS?
               </h2>
-              <p>
+              <p style={{textAlign: "justify"}}>
                 La Fundación CorAll Family Dominicana es una organización sin
                 fines de lucro creada con el firme propósito de facilitar
                 diagnósticos precisos, tratamientos médicos integrales y

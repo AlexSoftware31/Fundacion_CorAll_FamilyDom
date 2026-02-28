@@ -11,7 +11,7 @@ const teamOneData: Blog[] = [
   },
   {
     _id: 2,
-    mainImage: "/images/blog/org/org2.png",
+    mainImage: "/images/blog/org/org1-22.jpg",
     title: "Dr. Raúl Felipe Abella Antón",
     slug: "Vice-presidente",
     metadata:
@@ -27,7 +27,7 @@ const teamOneData: Blog[] = [
   },
   {
     _id: 4,
-    mainImage: "/images/blog/org/org44.png",
+    mainImage: "/images/blog/org/org1-40.png",
     title: "Dra. Josefina Abreu De Grullón",
     slug: "Marketing",
     metadata:

@@ -22,7 +22,7 @@ const Programas = () => {
       <section id="programa" className="px-4 md:px-8 2xl:px-0">
         <div className="max-w-c-1390 relative mx-auto px-7.5 pt-10 lg:px-15 lg:pt-15 xl:px-20 xl:pt-20">
           <div className="absolute top-0 left-0 -z-1 h-2/3 w-full rounded-lg bg-linear-to-t from-transparent to-[#dee7ff47] dark:bg-linear-to-t dark:to-[#252A42]"></div>
-          <div className="absolute bottom-[-255px] left-0 -z-1 h-full w-full">
+          <div className="absolute -bottom-63.75 left-0 -z-1 h-full w-full">
             <Image
               src="./images/shape/shape-dotted-light.svg"
               alt="Dotted"
@@ -63,7 +63,7 @@ const Programas = () => {
                 PROGRAMAS SOCIALES A NIVEL NACIONAL
               </h2>
 
-              <p>
+              <p style={{textAlign: "justify"}}>
                 En la Fundación CorAll Family Dominicana, nuestros programas
                 sociales se centran en brindar un apoyo integral a niños y niñas
                 con cardiopatías congénitas en todo el mundo. Trabajamos para
@@ -72,7 +72,7 @@ const Programas = () => {
                 económica o geográfica.
               </p>
               <br></br>
-              <p>
+              <p style={{textAlign: "justify"}}>
                 Nuestro enfoque no solo abarca el tratamiento médico, sino
                 también el acompañamiento emocional, logístico y educativo para
                 las familias, fomentando una sociedad más informada y solidaria.
@@ -103,7 +103,7 @@ const Programas = () => {
             >
               <div>
                 <Image
-                  src="/images/about/fundacion.jpg"
+                  src="/images/about/fundacion2.png"
                   alt="Fundación CorAll Family"
                   width={700}
                   height={550}

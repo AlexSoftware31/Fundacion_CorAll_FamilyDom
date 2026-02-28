@@ -29,20 +29,20 @@ export default function Docs1Page() {
 
                 <div className="flex flex-col gap-8 lg:flex-row lg:items-start">
                   <div className="lg:w-2/3">
-                    <p className="text-body-color dark:text-body-color-dark mb-6 text-base leading-relaxed">
+                    <p className="text-body-color dark:text-body-color-dark mb-6 text-base leading-relaxed" style={{textAlign: "justify"}}>
                       Hay muchos tipos de cardiopatías congénitas, oscilan entre
                       los casos simples a complejos y críticos.
                     </p>
                     <ul className="mt-6 list-disc space-y-4 pl-8 marker:text-amber-600">
-                      <li className="leading-relaxed">
+                      <li className="leading-relaxed" style={{textAlign: "justify"}}>
                         Las anomalías simples pueden mejorar por sí solas sin
                         cirugía. En ocasiones, un bebé con una anomalía simple
-                        no tendrá ningún síntoma . Los ejemplos de cardiopatías
+                        no tendrá ningún síntoma. Los ejemplos de cardiopatías
                         simples incluyen las comunicaciones interauriculares e
                         interventriculares, el conducto arterioso persistente y
                         la estenosis pulmonar.
                       </li>
-                      <li className="leading-relaxed">
+                      <li className="leading-relaxed" style={{textAlign: "justify"}}>
                         Las anomalías complejas y críticas pueden provocar
                         síntomas potencialmente mortales que requieran
                         tratamiento inmediato. Un ejemplo de anomalía cardíaca

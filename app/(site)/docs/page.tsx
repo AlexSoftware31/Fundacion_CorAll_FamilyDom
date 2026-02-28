@@ -31,13 +31,13 @@ export default function DocsPage() {
 
                 <div className="flex flex-col gap-8 lg:flex-row lg:items-start">
                   <div className="lg:w-2/3">
-                    <p className="text-body-color dark:text-body-color-dark mb-6 text-base leading-relaxed">
+                    <p className="text-body-color dark:text-body-color-dark mb-6 text-base leading-relaxed" style={{textAlign: "justify"}}>
                       Las cardiopatías congénitas, o anomalías cardíacas
                       congénitas, son problemas en la estructura del corazón que
                       están presentes al momento del nacimiento y es posible que
                       cambien el flujo normal de la sangre por el corazón.
                     </p>
-                    <p className="text-body-color dark:text-body-color-dark mb-6 text-base leading-relaxed">
+                    <p className="text-body-color dark:text-body-color-dark mb-6 text-base leading-relaxed" style={{textAlign: "justify"}}>
                       Las cardiopatías congénitas son el tipo más frecuente de
                       anomalías congénitas y es la segunda causa de mortalidad
                       infantil en los países menos desarrollados: {" "}
@@ -46,7 +46,7 @@ export default function DocsPage() {
                         malformación del corazón.
                       </b>
                     </p>
-                    <p className="text-body-color dark:text-body-color-dark mb-6 text-base leading-relaxed">
+                    <p className="text-body-color dark:text-body-color-dark mb-6 text-base leading-relaxed" style={{textAlign: "justify"}}>
                       Hay muchos tipos de cardiopatías congénitas. Las anomalías
                       más frecuentes afectan las paredes internas del corazón,
                       las válvulas cardíacas o los grandes vasos que
@@ -55,7 +55,7 @@ export default function DocsPage() {
                       que otras son críticas y requieren tratamiento poco tiempo
                       después del nacimiento.
                     </p>
-                    <p className="text-body-color dark:text-body-color-dark text-base">
+                    <p className="text-body-color dark:text-body-color-dark text-base" style={{textAlign: "justify"}}>
                       Con frecuencia, los médicos no conocen la causa por la que
                       se produce una cardiopatía congénita, pero varios factores
                       pueden aumentar el riesgo de tener un bebé que nazca con

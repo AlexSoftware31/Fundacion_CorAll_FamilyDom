@@ -22,7 +22,7 @@ const Fundacion = () => {
       <section id="fundacion" className="px-4 md:px-8 2xl:px-0">
         <div className="max-w-c-1390 relative mx-auto px-7.5 pt-10 lg:px-15 lg:pt-15 xl:px-20 xl:pt-20">
           <div className="absolute top-0 left-0 -z-1 h-2/3 w-full rounded-lg bg-linear-to-t from-transparent to-[#dee7ff47] dark:bg-linear-to-t dark:to-[#252A42]"></div>
-          <div className="absolute bottom-[-255px] left-0 -z-1 h-full w-full">
+          <div className="absolute -bottom-63.75 left-0 -z-1 h-full w-full">
             <Image
               src="./images/shape/shape-dotted-light.svg"
               alt="Dotted"
@@ -63,7 +63,7 @@ const Fundacion = () => {
                 ¿QUIÉNES SOMOS?
               </h2>
 
-              <p>
+              <p style={{textAlign: "justify"}}>
                 <strong>La Fundacion CorAll Family Dominicana </strong> es una
                 organizacion sin fines de lucro creada con el firme de facilitar
                 diagnosticos medicos tratamientos especializadas, priorizando a
@@ -75,7 +75,7 @@ const Fundacion = () => {
                 recuperación y seguimiento postoperatorio.
               </p>
               <br></br>
-              <p>
+              <p style={{textAlign: "justify"}}>
                 Nacimos el 2 de julio de 2025, impulsados por un profundo
                 compromiso humano y social, con la convicción de que ningún niño
                 o niña debe ver limitada su oportunidad de vivir una infancia
@@ -104,7 +104,7 @@ const Fundacion = () => {
             >
               <div>
                 <Image
-                  src="/images/about/fundacion1.jpg"
+                  src="/images/about/fundacion11.png"
                   alt="Fundación CorAll Family"
                   width={700}
                   height={550}

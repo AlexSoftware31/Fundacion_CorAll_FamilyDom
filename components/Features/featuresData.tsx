@@ -25,7 +25,7 @@ const featuresData: Feature[] = [
   {
     id: 4,
     icon: "/images/features/cientifico.png",
-    title: "Consejo Cientifico",
+    title: "Consejo Científico",
     description:
       "Profesionales de la salud que asesoran, validan y fortalecen el rigor médico y científico de nuestras acciones.",
   },

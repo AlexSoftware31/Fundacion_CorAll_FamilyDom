@@ -32,12 +32,12 @@ export default function Docs3Page() {
 
                 <div className="flex flex-col gap-8 lg:flex-row lg:items-start">
                   <div className="lg:w-2/3">
-                    <p className="text-body-color dark:text-body-color-dark mb-6 text-base leading-relaxed">
+                    <p className="text-body-color dark:text-body-color-dark mb-6 text-base leading-relaxed" style={{textAlign: "justify"}}>
                       El riesgo de tener un bebé con una cardiopatía congénita
                       está influenciado por muchos factores, incluidos:
                     </p>
                     <ul className="mt-6 list-disc space-y-4 pl-8 marker:text-amber-600">
-                      <li className="text-body-color dark:text-body-color-dark leading-relaxed">
+                      <li className="text-body-color dark:text-body-color-dark leading-relaxed" style={{textAlign: "justify"}}>
                         <span className="font-semibold">
                           Antecedentes familiares y genética.
                         </span>
@@ -47,18 +47,18 @@ export default function Docs3Page() {
                         riesgo. El riesgo es mayor si el otro progenitor del
                         bebé, u otro hijo, tiene una cardiopatía congénita.
                       </li>
-                      <li className="leading-relaxed">
+                      <li className="leading-relaxed" style={{textAlign: "justify"}}>
                         Fumar durante el embarazo o exposición al humo de
                         segunda mano.
                       </li>
-                      <li className="leading-relaxed">
+                      <li className="leading-relaxed" style={{textAlign: "justify"}}>
                         Algunos medicamentos que se usan durante el primer
                         trimestre del embarazo, como los inhibidores de la
                         enzima convertidora de la angiotensina (ECA) para la
                         presión arterial alta y el ácido retinoico para el
                         tratamiento del acné.
                       </li>
-                      <li className="leading-relaxed">
+                      <li className="leading-relaxed" style={{textAlign: "justify"}}>
                         Otras afecciones médicas como la diabetes, la
                         fenilcetonuria (un trastorno hereditario infrecuente que
                         afecta la forma en que el cuerpo procesa una proteínas
@@ -70,7 +70,7 @@ export default function Docs3Page() {
 
                   <div className="lg:w-1/3">
                     <Image
-                      src="/images/about/aumento.png"
+                      src="/images/about/aumento1.png"
                       alt="Fundación CorAll Family"
                       width={500}
                       height={600}

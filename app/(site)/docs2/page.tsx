@@ -29,7 +29,7 @@ export default function Docs2Page() {
 
                 <div className="flex flex-col gap-8 lg:flex-row lg:items-start">
                   <div className="lg:w-2/3">
-                    <p className="text-body-color dark:text-body-color-dark mb-6 text-base leading-relaxed">
+                    <p className="text-body-color dark:text-body-color-dark mb-6 text-base leading-relaxed" style={{textAlign: "justify"}}>
                       Las cardiopatías congénitas se producen porque el corazón
                       no se desarrolla normalmente mientras el bebé está
                       creciendo en el útero. Con frecuencia, los médicos no
@@ -37,7 +37,7 @@ export default function Docs2Page() {
                       congénitas. Los investigadores saben que, en ocasiones, la
                       genética puede cumplir un rol.
                     </p>
-                    <p>
+                    <p style={{textAlign: "justify"}}>
                       Es habitual que las cardiopatías congénitas ocurran debido
                       a cambios o mutaciones en el ADN del niño. Las mutaciones
                       del ADN pueden haber provenido o no de los padres. En

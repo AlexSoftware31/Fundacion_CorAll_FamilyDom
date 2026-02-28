@@ -49,8 +49,8 @@ const Footer = () => {
                   Trabajamos con esperanza, convicción y amor.
                 </p>
 
-                <p className="text-sectiontitle mb-1.5 tracking-[5px] uppercase">
-                  contactos
+                <p className="text-sectiontitle mb-1.5 tracking-[5px] text-amber-600 uppercase">
+                  <strong>contactos</strong>
                 </p>
                 <a
                   href="#"
@@ -63,7 +63,7 @@ const Footer = () => {
                   href="#"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
-                  +1 809-000-000
+                  +1 809-835-3555
                 </a>
               </motion.div>
 
@@ -87,7 +87,7 @@ const Footer = () => {
                   className="animate_top"
                 >
                   <h4 className="text-itemtitle2 mb-9 font-medium text-amber-600 dark:text-white">
-                    Enlaces Rapidos
+                    Enlaces Rápidos
                   </h4>
 
                   <ul>
@@ -104,7 +104,7 @@ const Footer = () => {
                         href="/fundacion"
                         className="mb-3 inline-block hover:text-amber-600"
                       >
-                        Quienes Somos
+                        Quiénes Somos
                       </a>
                     </li>
                     <li>
@@ -154,7 +154,7 @@ const Footer = () => {
                         href="/support"
                         className="mb-3 inline-block hover:text-amber-600"
                       >
-                        Contactanos
+                        Contáctanos
                       </a>
                     </li>
                     <li>
@@ -189,9 +189,12 @@ const Footer = () => {
                   <h4 className="text-itemtitle2 mb-9 font-medium text-amber-600 dark:text-white">
                     Donaciones
                   </h4>
-                  <p className="mb-4 w-[90%]">
-                    Dona y regala latidos.
-                  </p>
+                  <a
+                    href="/donar"
+                    className="mb-3 inline-block hover:text-amber-600"
+                  >
+                    Dona y Regala Latidos.
+                  </a>
                 </motion.div>
               </div>
             </div>

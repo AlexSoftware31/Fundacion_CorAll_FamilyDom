@@ -84,7 +84,7 @@ const Org = async ({ id }) => {
               className="xl:text-sectiontitle2 mb-15 text-3xl font-semibold text-amber-600 dark:text-white"
               style={{ fontSize: "35px" }}
             >
-              CONSEJO CIENTIFICO
+              CONSEJO CIENTÍFICO
             </h2>
 
             <div className="grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:grid-cols-4 xl:gap-10">
