@@ -22,7 +22,7 @@ const Donar = () => {
       <section id="support" className="px-4 md:px-8 2xl:px-0">
         <div className="max-w-c-1390 relative mx-auto px-7.5 pt-10 lg:px-15 lg:pt-15 xl:px-20 xl:pt-20">
           <div className="absolute top-0 left-0 -z-1 h-2/3 w-full rounded-lg bg-linear-to-t from-transparent to-[#dee7ff47] dark:bg-linear-to-t dark:to-[#252A42]"></div>
-          <div className="absolute bottom-[-255px] left-0 -z-1 h-full w-full">
+          <div className="absolute -bottom-63.75 left-0 -z-1 h-full w-full">
             <Image
               src="./images/shape/shape-dotted-light.svg"
               alt="Dotted"
@@ -53,10 +53,10 @@ const Donar = () => {
                 className="xl:text-sectiontitle2 mb-10 text-3xl font-semibold text-amber-600 dark:text-white"
                 style={{ fontSize: "30px" }}
               >
-                DONA Y SALVA VIDAS
+                DONA Y REGALA LATIDOS
               </h2>
 
-              <p className="mb-6">
+              <p className="mb-6" style={{ textAlign: "justify" }}>
                 En la Fundación Coral Family Dominicana hemos asumido el
                 compromiso de que ningún niño o niña vea limitada su oportunidad
                 de vivir por falta de recursos o acceso a servicios de salud. Tu
@@ -65,7 +65,7 @@ const Donar = () => {
                 imposible.
               </p>
 
-              <p className="mb-4 font-semibold">
+              <p className="mb-4 font-semibold" style={{ textAlign: "justify" }}>
                 Donar a nuestra fundación es un acto de amor, solidaridad y
                 confianza que se transforma directamente en:
               </p>
@@ -74,7 +74,7 @@ const Donar = () => {
                 <li>Diagnósticos oportunos</li>
                 <li>Tratamientos y cirugías cardíacas</li>
                 <li>Medicamentos y estudios especializados</li>
-                <li>
+                <li style={{ textAlign: "justify" }}>
                   Acompañamiento emocional, psicológico y social para pacientes
                   y sus familias
                 </li>
@@ -84,7 +84,7 @@ const Donar = () => {
                 ¿Por qué tu apoyo es tan importante?
               </h3>
 
-              <p className="mb-4">
+              <p className="mb-4" style={{ textAlign: "justify" }}>
                 Las cardiopatías congénitas son una de las principales causas de
                 mortalidad infantil prevenible. Muchas de ellas tienen
                 tratamiento, pero en contextos de vulnerabilidad económica el
@@ -95,21 +95,21 @@ const Donar = () => {
 
               <ul className="list-disc space-y-2 pl-6">
                 <li>Ayudas a reducir la mortalidad infantil</li>
-                <li>
+                <li style={{ textAlign: "justify" }}>
                   Promueves una infancia más sana, digna y llena de
                   oportunidades
                 </li>
-                <li>
+                <li style={{ textAlign: "justify" }}>
                   Fortaleces programas de educación, concientización e
                   investigación
                 </li>
-                <li>
+                <li style={{ textAlign: "justify" }}>
                   Permites que más familias reciban apoyo sin discriminación ni
                   barreras económicas
                 </li>
               </ul>
 
-              <p className="mt-6 font-medium">
+              <p className="mt-6 font-medium" style={{ textAlign: "justify" }}>
                 Tu contribución tiene un impacto real y medible en la vida de
                 nuestros niños y niñas.
               </p>

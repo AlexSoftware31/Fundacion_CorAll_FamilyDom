@@ -16,7 +16,7 @@ export default function Docs2Page() {
         <div className="container mx-auto">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 lg:w-1/4">
-              <div className="shadow-solid-4 dark:border-strokedark dark:bg-blacksection sticky top-[74px] rounded-lg border border-white p-4 transition-all">
+              <div className="shadow-solid-4 dark:border-strokedark dark:bg-blacksection sticky top-18.5 rounded-lg border border-white p-4 transition-all">
                 <ul className="space-y-2">
                   <SidebarLink docsNum={3} />
                 </ul>
@@ -24,7 +24,7 @@ export default function Docs2Page() {
             </div>
 
             <div className="w-full px-4 lg:w-3/4">
-              <div className="blog-details blog-details-docs shadow-three dark:bg-gray-dark rounded-xs bg-white px-8 py-11 sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]">
+              <div className="blog-details blog-details-docs shadow-three dark:bg-gray-dark rounded-xs bg-white px-8 py-11 sm:p-13.75 lg:mb-5 lg:px-8 xl:p-13.75">
                 <h2>¿Cuáles son las causas de las cardiopatías congénitas?</h2>
 
                 <div className="flex flex-col gap-8 lg:flex-row lg:items-start">
