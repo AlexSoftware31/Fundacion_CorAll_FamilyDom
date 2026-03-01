@@ -2,13 +2,10 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import React from "react";
-import { countries } from "@/components/Common/countries"; // Asegúrate de tener este archivo con la lista de países
+import { countries } from "@/components/Common/countries"; 
 
 const Contact = () => {
-  /**
-   * Source: https://www.joshwcomeau.com/react/the-perils-of-rehydration/
-   * Reason: To fix rehydration error
-   */
+
   const [hasMounted, setHasMounted] = React.useState(false);
   React.useEffect(() => {
     setHasMounted(true);
