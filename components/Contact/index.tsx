@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import React from "react";
+import { countries } from "@/components/Common/countries"; // Asegúrate de tener este archivo con la lista de países
 
 const Contact = () => {
   /**
@@ -63,9 +64,7 @@ const Contact = () => {
                 FORMULARIO DE CONTACTO
               </h2>
 
-              <form
-                method="POST"
-              >
+              <form method="POST">
                 <div className="mb-7.5 flex flex-col gap-7.5 lg:flex-row lg:justify-between lg:gap-14">
                   <input
                     type="text"
@@ -73,11 +72,19 @@ const Contact = () => {
                     className="border-stroke focus:border-waterloo dark:border-strokedark dark:focus:border-manatee w-full border-b bg-transparent pb-3.5 focus:placeholder:text-black focus-visible:outline-hidden lg:w-1/2 dark:focus:placeholder:text-white"
                   />
 
-                  <input
+                  {/* <input
                     type="text"
                     placeholder="Pais o Region"
                     className="border-stroke focus:border-waterloo dark:border-strokedark dark:focus:border-manatee w-full border-b bg-transparent pb-3.5 focus:placeholder:text-black focus-visible:outline-hidden lg:w-1/2 dark:focus:placeholder:text-white"
-                  />
+                  /> */}
+                  <select className="w-full bg-transparent border-0 border-b border-gray-400 focus:border-blue-500 outline-none focus:outline-none focus:ring-0 appearance-none lg:w-1/2">
+                    <option value="">Seleccione un país</option>
+                    {countries.map((country, index) => (
+                      <option key={index} value={country}>
+                        {country}
+                      </option>
+                    ))}
+                  </select>
                 </div>
 
                 <div className="mb-12.5 flex flex-col gap-7.5 lg:flex-row lg:justify-between lg:gap-14">
@@ -104,7 +111,6 @@ const Contact = () => {
 
                 <div className="flex flex-wrap gap-4 xl:justify-between">
                   <div className="mb-6 flex md:mb-0">
-                   
                     <label
                       htmlFor="default-checkbox"
                       className="flex max-w-106.25 cursor-pointer pl-5 select-none"
