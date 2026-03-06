@@ -2,10 +2,9 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import React from "react";
-import { countries } from "@/components/Common/countries"; 
+import { countries } from "@/components/Common/countries";
 
 const Contact = () => {
-
   const [hasMounted, setHasMounted] = React.useState(false);
   React.useEffect(() => {
     setHasMounted(true);
@@ -74,7 +73,7 @@ const Contact = () => {
                     placeholder="Pais o Region"
                     className="border-stroke focus:border-waterloo dark:border-strokedark dark:focus:border-manatee w-full border-b bg-transparent pb-3.5 focus:placeholder:text-black focus-visible:outline-hidden lg:w-1/2 dark:focus:placeholder:text-white"
                   /> */}
-                  <select className="w-full bg-transparent border-0 border-b border-gray-400 focus:border-blue-500 outline-none focus:outline-none focus:ring-0 appearance-none lg:w-1/2">
+                  <select className="w-full appearance-none border-0 border-b border-gray-400 bg-transparent outline-none focus:border-blue-500 focus:ring-0 focus:outline-none lg:w-1/2">
                     <option value="">Seleccione un país</option>
                     {countries.map((country, index) => (
                       <option key={index} value={country}>
@@ -112,8 +111,9 @@ const Contact = () => {
                       htmlFor="default-checkbox"
                       className="flex max-w-106.25 cursor-pointer pl-5 select-none"
                     >
-                      En CorAll Family Dominicana trabajamos para dar una
-                      segunda oportunidad de vida a niños con cardiopatías.
+                      En la Fundación corAll Family Dominicana trabajamos con
+                      esperanza, convicción y amor, porque cada latido cuenta y
+                      cada vida importa.
                     </label>
                   </div>
 
@@ -159,7 +159,7 @@ const Contact = () => {
               className="animate_top w-full md:w-2/5 md:p-7.5 lg:w-[26%] xl:pt-15"
             >
               <h2 className="xl:text-sectiontitle2 mb-12.5 text-3xl font-semibold text-amber-600 dark:text-white">
-                CONTACTANOS
+                CONTÁCTANOS
               </h2>
               <div className="5 mb-7">
                 <h3 className="text-metatitle3 mb-4 font-medium text-black dark:text-white">
@@ -180,7 +180,7 @@ const Contact = () => {
                   Telefono:
                 </h4>
                 <p>
-                  <a href="#">+1 809-000-0000</a>
+                  <a href="#">+1 809-835-3555</a>
                 </p>
               </div>
             </motion.div>

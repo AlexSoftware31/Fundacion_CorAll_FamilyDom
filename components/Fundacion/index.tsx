@@ -63,24 +63,39 @@ const Fundacion = () => {
                 ¿QUIÉNES SOMOS?
               </h2>
 
-              <p style={{textAlign: "justify"}}>
-                <strong>La Fundacion CorAll Family Dominicana </strong> es una
-                organizacion sin fines de lucro creada con el firme de facilitar
-                diagnosticos medicos tratamientos especializadas, priorizando a
-                aquellos niños y niñas en situacion de mayor vulnerabilidad.
-                Nuestro enfoque es holístico: no solo atendemos la condición
-                médica, sino que también brindamos acompañamiento emocional,
-                psicológico, social y comunitario a los pacientes y sus familias
-                durante todo el proceso, desde el diagnóstico hasta la
-                recuperación y seguimiento postoperatorio.
+              <p style={{ textAlign: "justify" }}>
+                La <strong> Fundacion CorAll Family Dominicana </strong> es una
+                organización sin fines de lucro creada con el firme propósito de{" "}
+                <b>
+                  facilitar diagnósticos precisos, tratamientos médicos
+                  integrales y cirugías especializadas{" "}
+                </b>
+                , priorizando a aquellos niños y niñas que se encuentran en
+                situación de mayor vulnerabilidad. Nuestro enfoque es holístico:
+                no solo atendemos la condición médica, sino que también
+                brindamos{" "}
+                <b>
+                  {" "}
+                  acompañamiento emocional, psicológico, social y comunitario
+                </b>{" "}
+                a los pacientes y sus familias durante todo el proceso, desde el
+                diagnóstico hasta la recuperación y seguimiento postoperatorio.
               </p>
               <br></br>
-              <p style={{textAlign: "justify"}}>
-                Nacimos el 2 de julio de 2025, impulsados por un profundo
-                compromiso humano y social, con la convicción de que ningún niño
-                o niña debe ver limitada su oportunidad de vivir una infancia
-                plena por la falta de recursos o de acceso a servicios de salud
-                cardiovascular infantil.
+              <p style={{ textAlign: "justify" }}>
+                Nacimos el <strong> 2 de julio de 2025 </strong>, impulsados por
+                un profundo compromiso humano y social, con la convicción de que
+                ningún niño o niña debe ver limitada su oportunidad de vivir una
+                infancia plena por la falta de recursos o de acceso a servicios
+                de salud cardiovascular infantil.
+              </p>
+              <br></br>
+              <p style={{ textAlign: "justify" }}>
+                <strong>
+                  En la Fundación CorAll Family Dominicana creemos firmemente
+                  que la vida y la salud no deben ser un privilegio, sino un
+                  derecho fundamental para todos.
+                </strong>
               </p>
             </motion.div>
 
