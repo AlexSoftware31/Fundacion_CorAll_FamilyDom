@@ -1,11 +1,10 @@
 "use client";
-import { motion } from "framer-motion";
 import Image from "next/image";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 const Programas = () => {
   const [currentImage, setCurrentImage] = useState(0);
-  const images = ["/images/about/programa1.png", "/images/about/programa2.png"];
+  const images = ["/images/about/programa01.png", "/images/about/programa02.png"];
 
 
   useEffect(() => {
@@ -65,7 +64,7 @@ const Programas = () => {
               <Image
                 src={images[currentImage]}
                 alt="Programa social"
-                width={700}
+                width={750}
                 height={550}
                 className="w-full rounded-lg object-cover shadow-xl"
               />

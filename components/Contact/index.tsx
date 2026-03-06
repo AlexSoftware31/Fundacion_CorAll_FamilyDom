@@ -165,7 +165,7 @@ const Contact = () => {
                 <h3 className="text-metatitle3 mb-4 font-medium text-black dark:text-white">
                   Dirección:
                 </h3>
-                <p>Av. Francia 143, Santo Domingo 10203a</p>
+                <p>Av. Francia 143, 10204. Santo Domingo, República Dominicana.</p>
               </div>
               <div className="5 mb-7">
                 <h3 className="text-metatitle3 mb-4 font-medium text-black dark:text-white">
