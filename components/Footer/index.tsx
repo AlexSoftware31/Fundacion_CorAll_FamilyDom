@@ -34,14 +34,14 @@ const Footer = () => {
                   <Image
                     width={180}
                     height={80}
-                    src="/images/logo/logo_img.png"
+                    src="/images/logo/Fundacion_Corall _Family_Dominicana.png"
                     alt="Logo"
                     className="dark:hidden"
                   />
                   <Image
                     width={180}
                     height={80}
-                    src="/images/logo/logo_img.png"
+                    src="/images/logo/Fundacion_Corall _Family_Dominicana.png"
                     alt="Logo"
                     className="hidden dark:block"
                   />
