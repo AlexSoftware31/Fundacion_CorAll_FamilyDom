@@ -25,16 +25,27 @@ export default function Docs1Page() {
 
             <div className="w-full px-4 lg:w-3/4">
               <div className="blog-details blog-details-docs shadow-three dark:bg-gray-dark rounded-xs bg-white px-8 py-11 sm:p-13.75 lg:mb-5 lg:px-8 xl:p-13.75">
-                <h2>Tipos de Cardiopatía Congénita</h2>
+                <h2
+                  className="mb-5 text-2xl font-semibold !text-amber-600 md:text-4xl"
+                  style={{ fontSize: "33px" }}
+                >
+                  Tipos de Cardiopatía Congénita
+                </h2>
 
                 <div className="flex flex-col gap-8 lg:flex-row lg:items-start">
                   <div className="lg:w-2/3">
-                    <p className="text-body-color dark:text-body-color-dark mb-6 text-base leading-relaxed" style={{textAlign: "justify"}}>
+                    <p
+                      className="text-body-color dark:text-body-color-dark mb-6 text-base leading-relaxed"
+                      style={{ textAlign: "justify" }}
+                    >
                       Hay muchos tipos de cardiopatías congénitas, oscilan entre
                       los casos simples a complejos y críticos.
                     </p>
                     <ul className="mt-6 list-disc space-y-4 pl-8 marker:text-amber-600">
-                      <li className="leading-relaxed" style={{textAlign: "justify"}}>
+                      <li
+                        className="leading-relaxed"
+                        style={{ textAlign: "justify" }}
+                      >
                         Las anomalías simples pueden mejorar por sí solas sin
                         cirugía. En ocasiones, un bebé con una anomalía simple
                         no tendrá ningún síntoma. Los ejemplos de cardiopatías
@@ -42,7 +53,10 @@ export default function Docs1Page() {
                         interventriculares, el conducto arterioso persistente y
                         la estenosis pulmonar.
                       </li>
-                      <li className="leading-relaxed" style={{textAlign: "justify"}}>
+                      <li
+                        className="leading-relaxed"
+                        style={{ textAlign: "justify" }}
+                      >
                         Las anomalías complejas y críticas pueden provocar
                         síntomas potencialmente mortales que requieran
                         tratamiento inmediato. Un ejemplo de anomalía cardíaca

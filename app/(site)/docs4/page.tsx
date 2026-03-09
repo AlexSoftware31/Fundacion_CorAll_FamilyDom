@@ -25,7 +25,12 @@ export default function Docs4Page() {
 
             <div className="w-full px-4 lg:w-3/4">
               <div className="blog-details blog-details-docs shadow-three dark:bg-gray-dark rounded-xs bg-white px-8 py-11 sm:p-13.75 lg:mb-5 lg:px-8 xl:p-13.75">
-                <h2>Detección y Prevención</h2>
+                <h2
+                  className="mb-5 text-2xl font-semibold !text-amber-600 md:text-4xl"
+                  style={{ fontSize: "33px" }}
+                >
+                  Detección y Prevención
+                </h2>
 
                 <div className="flex flex-col gap-8 lg:flex-row lg:items-start">
                   <div className="lg:w-2/3">
@@ -52,12 +57,12 @@ export default function Docs4Page() {
                       className="text-body-color dark:text-body-color-dark mb-6 text-base leading-relaxed"
                       style={{ textAlign: "justify" }}
                     >
-                      La <b>oximetría de pulso</b> es una prueba que puede señalar si
-                      un recién nacido tiene concentraciones bajas de oxígeno en
-                      sangre, que puede ser un síntoma de una cardiopatía
-                      congénita crítica. La prueba implica la conexión de
-                      sensores a las manos o pies del bebé para medir las
-                      concentraciones de oxígeno. <br /> <br /> Las
+                      La <b>oximetría de pulso</b> es una prueba que puede
+                      señalar si un recién nacido tiene concentraciones bajas de
+                      oxígeno en sangre, que puede ser un síntoma de una
+                      cardiopatía congénita crítica. La prueba implica la
+                      conexión de sensores a las manos o pies del bebé para
+                      medir las concentraciones de oxígeno. <br /> <br /> Las
                       concentraciones bajas de oxígeno en sangre podrían deberse
                       a una cardiopatía congénita o podría ser un signo de
                       alguna otra alteración. Si su hijo tiene concentraciones

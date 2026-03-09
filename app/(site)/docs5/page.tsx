@@ -25,7 +25,12 @@ export default function Docs5Page() {
 
             <div className="w-full px-4 lg:w-3/4">
               <div className="blog-details blog-details-docs shadow-three dark:bg-gray-dark rounded-xs bg-white px-8 py-11 sm:p-13.75 lg:mb-5 lg:px-8 xl:p-13.75">
-                <h2>Tratamiento</h2>
+                <h2
+                  className="mb-5 text-2xl font-semibold !text-amber-600 md:text-4xl"
+                  style={{ fontSize: "33px" }}
+                >
+                  Tratamiento
+                </h2>
 
                 <div className="flex flex-col gap-8 lg:flex-row lg:items-start">
                   <div className="lg:w-2/3">
@@ -67,8 +72,8 @@ export default function Docs5Page() {
                       plena, activa y feliz. <br /> <br />
                       Las cardiopatías congénitas son un reto, pero también una
                       oportunidad para demostrar que la ciencia, la solidaridad
-                      y el amor pueden <b>transformar la vida de un niño y su
-                      familia</b>.
+                      y el amor pueden{" "}
+                      <b>transformar la vida de un niño y su familia</b>.
                     </p>
                   </div>
 
