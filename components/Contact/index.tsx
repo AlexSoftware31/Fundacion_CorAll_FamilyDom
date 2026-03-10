@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import React from "react";
 import { countries } from "@/components/Common/countries";
+import { FaPhoneAlt } from "react-icons/fa";
+import { MdEmail, MdLocationOn } from "react-icons/md";
 
 const Contact = () => {
   const [hasMounted, setHasMounted] = React.useState(false);
@@ -107,14 +109,11 @@ const Contact = () => {
 
                 <div className="flex flex-wrap gap-4 xl:justify-between">
                   <div className="mb-6 flex md:mb-0">
-                    <label
-                      htmlFor="default-checkbox"
-                      className="flex max-w-106.25 cursor-pointer pl-5 select-none"
-                    >
+                    <p className="flex max-w-106.25 cursor-pointer pl-5 text-amber-600 select-none">
                       En la Fundación corAll Family Dominicana trabajamos con
                       esperanza, convicción y amor, porque cada latido cuenta y
                       cada vida importa.
-                    </label>
+                    </p>
                   </div>
 
                   <button
@@ -156,31 +155,34 @@ const Contact = () => {
               whileInView="visible"
               transition={{ duration: 2, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_top w-full md:w-2/5 md:p-7.5 lg:w-[26%] xl:pt-15"
+              className="animate_top w-full md:w-2/5 md:p-7.5 lg:w-[34%] xl:pt-15"
             >
-              <h2 className="xl:text-sectiontitle2 mb-12.5 text-3xl font-semibold text-amber-600 dark:text-white">
+              <h2 className="xl:text-sectiontitle2 mb-12.5 text-3xl font-semibold text-amber-600 ">
                 CONTÁCTANOS
               </h2>
               <div className="5 mb-7">
-                <h3 className="text-metatitle3 mb-4 font-medium text-black dark:text-white">
-                  Dirección:
-                </h3>
-                <p>Av. Francia 143, 10204. Santo Domingo, República Dominicana.</p>
+                <FaPhoneAlt
+                  size={18}
+                  className="mr-2 inline-block text-amber-600"
+                />
+                <a href="#">+1 809-835-3555</a>
               </div>
               <div className="5 mb-7">
-                <h3 className="text-metatitle3 mb-4 font-medium text-black dark:text-white">
-                  Email:
-                </h3>
                 <p>
-                  <a href="#">corallfamilydominicana@gmail.com</a>
+                  <MdEmail
+                    size={20}
+                    className="mr-2 inline-block text-amber-600"
+                  />
+                  corallfamilydominicana@gmail.com
                 </p>
               </div>
-              <div>
-                <h4 className="text-metatitle3 mb-4 font-medium text-black dark:text-white">
-                  Telefono:
-                </h4>
+              <div className="5 mb-7">
                 <p>
-                  <a href="#">+1 809-835-3555</a>
+                  <MdLocationOn
+                    size={21}
+                    className="mr-2 inline-block text-amber-600"
+                  />
+                  Av. Francia 143, 10204. Santo Domingo, República Dominicana.
                 </p>
               </div>
             </motion.div>

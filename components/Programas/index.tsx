@@ -115,12 +115,9 @@ const Programas = () => {
                   médico. Sabemos que enfrentar una cardiopatía congénita
                   impacta profundamente a todo el núcleo familiar. Por ello,
                   brindamos un acompañamiento integral que incluye orientación,
-                  apoyo emocional, asistencia social y acompañamiento durante
-                  las diferentes etapas del tratamiento. Nuestro enfoque busca
-                  fortalecer a las familias, para que puedan enfrentar este
-                  proceso con mayor estabilidad, esperanza y seguridad, desde el
-                  diagnóstico, durante el tratamiento y en el proceso de
-                  recuperación del paciente.
+                  apoyo emocional, asistencia social y acompañamiento desde el
+                  diagnóstico, durante las diferentes etapas del tratamiento. y
+                  en el proceso de recuperación del paciente.
                 </li>
                 <li
                   className="leading-relaxed"
@@ -134,7 +131,7 @@ const Programas = () => {
                   manejo diario de estas condiciones.
                 </li>
               </ul>
-              <br/>
+              <br />
 
               <p className="text-justify">
                 <b>

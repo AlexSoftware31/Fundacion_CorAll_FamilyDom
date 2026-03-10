@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { FaInstagram, FaFacebook, FaTiktok } from "react-icons/fa";
+import { FaInstagram, FaFacebook, FaTiktok, FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
@@ -55,17 +55,22 @@ const Footer = () => {
                   <strong>contactos</strong>
                 </p>
                 <a
-                  href="mailto:CorAllFamilyDominicana@gmail.com"
-                  className="text-itemtitle font-medium text-black dark:text-white"
-                >
-                  CorAllFamilyDominicana@gmail.com
-                </a>
-                <br></br>
-                <a
                   href="tel:+18098353555"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
+                  <FaPhoneAlt size={18} className="mr-2 inline-block text-amber-600" />
                   +1 809-835-3555
+                </a>
+                <br />
+                <a
+                  href="mailto:CorAllFamilyDominicana@gmail.com"
+                  className="text-itemtitle font-medium text-black dark:text-white"
+                >
+                  <MdEmail
+                    size={18}
+                    className="mr-2 inline-block text-amber-600"
+                  />
+                  CorAllFamilyDominicana@gmail.com
                 </a>
               </motion.div>
 
@@ -226,7 +231,7 @@ const Footer = () => {
                         href="https://www.instagram.com"
                         className="flex items-center gap-3 hover:text-amber-600"
                       >
-                        <FaInstagram size={20} />
+                        <FaInstagram size={20} className="text-amber-600" />
                         Instagram
                       </a>
                     </li>
@@ -235,7 +240,7 @@ const Footer = () => {
                         href="https://www.facebook.com"
                         className="flex items-center gap-3 hover:text-amber-600"
                       >
-                        <FaFacebook size={20} />
+                        <FaFacebook size={20}  className="text-amber-600" />
                         Facebook
                       </a>
                     </li>
@@ -244,7 +249,7 @@ const Footer = () => {
                         href="https://www.tiktok.com"
                         className="flex items-center gap-3 hover:text-amber-600"
                       >
-                        <FaTiktok size={20} />
+                        <FaTiktok size={20} className="text-amber-600"  />
                         TikTok
                       </a>
                     </li>
@@ -253,7 +258,7 @@ const Footer = () => {
                         href="mailto:info@corallfamily.org"
                         className="flex items-center gap-3 hover:text-amber-600"
                       >
-                        <MdEmail size={20} />
+                        <MdEmail size={20} className="text-amber-600" />
                         Correo Electrónico
                       </a>
                     </li>
