@@ -22,8 +22,15 @@ const teamThreeData: Blog[] = [
     metadata:
       "Especialista en Pediatría y Cardiólogo Pediátrica Maestro de la Pediatría Dominicana Maestro de la Cardiología Pediátrica Dominicana Co-fundador de la Residencia de Cardiología Pediátrica en el Hospital Infantil Dr. Robert Reid Cabral.",
   },
-   {
+  {
     _id: 4,
+    mainImage: "/images/blog/org/org3-55.jpg",
+    title: "Dr. José Miguel Paliza",
+    metadata:
+      "Doctor en Medicina por la Universidad Autónoma de Santo Domingo (UASD) Especialidad en Neurioradiologia en el Hospital La Timone de  la Universidad  de Aix-Marseille. Director médico del Centro Diagnóstica S.A. Neuroradiólogo en CECANOT.",
+  },
+  {
+    _id: 5,
     mainImage: "/images/blog/org/org3-40.png",
     title: "Lic. Cristian Baez",
     metadata:

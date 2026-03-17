@@ -1,10 +1,17 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { useEffect, useRef } from "react";
 import { FaInstagram, FaFacebook, FaTiktok, FaPhoneAlt } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
+import { MdEmail, MdLocationOn } from "react-icons/md";
 
 const Footer = () => {
+  const footerRef = useRef(null);
+
+   useEffect(() => {
+    console.log(footerRef.current);
+  }, []);
+  
   return (
     <>
       <footer className="border-stroke dark:border-strokedark dark:bg-blacksection border-t bg-white">
@@ -72,7 +79,19 @@ const Footer = () => {
                   />
                   CorAllFamilyDominicana@gmail.com
                 </a>
+                <br />
+                <a
+                  href="mailto:CorAllFamilyDominicana@gmail.com"
+                  className="text-itemtitle font-medium text-black dark:text-white"
+                >
+                  <MdLocationOn
+                    size={20}
+                    className="mr-2 inline-block text-amber-600"
+                  />
+                   Av. Francia 143, 10204. Santo Domingo, República Dominicana.
+                </a>
               </motion.div>
+              <p>{footerRef.current}</p>
 
               <div className="flex w-full flex-col gap-8 md:flex-row md:justify-between md:gap-0 lg:w-2/3 xl:w-7/12">
                 <motion.div

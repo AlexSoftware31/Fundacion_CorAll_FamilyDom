@@ -176,7 +176,7 @@ const Contact = () => {
                   corallfamilydominicana@gmail.com
                 </p>
               </div>
-              <div className="5 mb-7">
+              {/* <div className="5 mb-7">
                 <p>
                   <MdLocationOn
                     size={21}
@@ -184,7 +184,7 @@ const Contact = () => {
                   />
                   Av. Francia 143, 10204. Santo Domingo, República Dominicana.
                 </p>
-              </div>
+              </div> */}
             </motion.div>
           </div>
         </div>
