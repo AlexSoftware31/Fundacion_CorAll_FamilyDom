@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import React from "react";
 import { countries } from "@/components/Common/countries";
-import { FaPhoneAlt } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaPhoneAlt } from "react-icons/fa";
 import { MdEmail, MdLocationOn } from "react-icons/md";
 
 const Contact = () => {
@@ -157,34 +157,48 @@ const Contact = () => {
               viewport={{ once: true }}
               className="animate_top w-full md:w-2/5 md:p-7.5 lg:w-[34%] xl:pt-15"
             >
-              <h2 className="xl:text-sectiontitle2 mb-12.5 text-3xl font-semibold text-amber-600 ">
+              <h2 className="xl:text-sectiontitle2 mb-12.5 text-3xl font-semibold text-amber-600">
                 CONTÁCTANOS
               </h2>
               <div className="5 mb-7">
-                <FaPhoneAlt
-                  size={18}
-                  className="mr-2 inline-block text-amber-600"
-                />
-                <a href="#">+1 809-835-3555</a>
+                <a
+                  href="tel:+18098353555"
+                  className="flex items-center gap-3 hover:text-amber-600"
+                >
+                  <FaPhoneAlt
+                    size={18}
+                    className=" text-amber-600"
+                  />
+                  +1 809-835-3555
+                </a>
               </div>
               <div className="5 mb-7">
-                <p>
-                  <MdEmail
-                    size={20}
-                    className="mr-2 inline-block text-amber-600"
-                  />
+                <a
+                  href="mailto:corallfamilydominicana@gmail.com"
+                  className="flex items-center gap-3 hover:text-amber-600"
+                >
+                  <MdEmail size={20} className="text-amber-600" />
                   corallfamilydominicana@gmail.com
-                </p>
+                </a>
               </div>
-              {/* <div className="5 mb-7">
-                <p>
-                  <MdLocationOn
-                    size={21}
-                    className="mr-2 inline-block text-amber-600"
-                  />
-                  Av. Francia 143, 10204. Santo Domingo, República Dominicana.
-                </p>
-              </div> */}
+              <div className="5 mb-7">
+                <a
+                  href="https://www.instagram.com"
+                  className="flex items-center gap-3 hover:text-amber-600"
+                >
+                  <FaInstagram size={20} className="text-amber-600" />
+                  Instagram
+                </a>
+              </div>
+              <div className="5 mb-7">
+                <a
+                  href="https://www.facebook.com"
+                  className="flex items-center gap-3 hover:text-amber-600"
+                >
+                  <FaFacebook size={20} className="text-amber-600" />
+                  Facebook
+                </a>
+              </div>
             </motion.div>
           </div>
         </div>

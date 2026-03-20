@@ -4,14 +4,17 @@ import Image from "next/image";
 import { useEffect, useRef } from "react";
 import { FaInstagram, FaFacebook, FaTiktok, FaPhoneAlt } from "react-icons/fa";
 import { MdEmail, MdLocationOn } from "react-icons/md";
+import { usePathname } from "next/navigation";
 
 const Footer = () => {
   const footerRef = useRef(null);
+  const pathname = usePathname();
+  const isContactPage = pathname === "/support";
 
-   useEffect(() => {
+  useEffect(() => {
     console.log(footerRef.current);
   }, []);
-  
+
   return (
     <>
       <footer className="border-stroke dark:border-strokedark dark:bg-blacksection border-t bg-white">
@@ -65,7 +68,10 @@ const Footer = () => {
                   href="tel:+18098353555"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
-                  <FaPhoneAlt size={18} className="mr-2 inline-block text-amber-600" />
+                  <FaPhoneAlt
+                    size={18}
+                    className="mr-2 inline-block text-amber-600"
+                  />
                   +1 809-835-3555
                 </a>
                 <br />
@@ -80,16 +86,18 @@ const Footer = () => {
                   CorAllFamilyDominicana@gmail.com
                 </a>
                 <br />
-                <a
-                  href="mailto:CorAllFamilyDominicana@gmail.com"
-                  className="text-itemtitle font-medium text-black dark:text-white"
-                >
-                  <MdLocationOn
-                    size={20}
-                    className="mr-2 inline-block text-amber-600"
-                  />
-                   Av. Francia 143, 10204. Santo Domingo, República Dominicana.
-                </a>
+                {isContactPage && (
+                  <a
+                    href="mailto:CorAllFamilyDominicana@gmail.com"
+                    className="text-itemtitle font-medium text-black dark:text-white"
+                  >
+                    <MdLocationOn
+                      size={20}
+                      className="mr-2 inline-block text-amber-600"
+                    />
+                    Av. Francia 143, 10204. Santo Domingo, República Dominicana.
+                  </a>
+                )}
               </motion.div>
               <p>{footerRef.current}</p>
 
@@ -259,7 +267,7 @@ const Footer = () => {
                         href="https://www.facebook.com"
                         className="flex items-center gap-3 hover:text-amber-600"
                       >
-                        <FaFacebook size={20}  className="text-amber-600" />
+                        <FaFacebook size={20} className="text-amber-600" />
                         Facebook
                       </a>
                     </li>
@@ -268,7 +276,7 @@ const Footer = () => {
                         href="https://www.tiktok.com"
                         className="flex items-center gap-3 hover:text-amber-600"
                       >
-                        <FaTiktok size={20} className="text-amber-600"  />
+                        <FaTiktok size={20} className="text-amber-600" />
                         TikTok
                       </a>
                     </li>
