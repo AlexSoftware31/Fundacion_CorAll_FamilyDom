@@ -7,7 +7,7 @@ const teamOneData: Blog[] = [
     title: "Dra. Evelin Katherine Medina Feliz",
     slug: "Presidenta",
     metadata:
-      "Pediatra–Neonatóloga–Intensivista Neonatal, Gerente del Departamento de Neonatología y del Consejo de Enseñanza e Investigaciones de la Ciudad Sanitaria Dr. Luis E. Aybar. Directora del Programa de Postgrado de la Facultad de Ciencias de la Salud de la Universidad Autónoma de Santo Domingo (UASD).",
+      "Pediatra-Neonatóloga-Intensivista Neonatal. Gerente de Neonatologia Hospital Materno Infantil de la Ciudad Sanitaria Dr. Luis E. Aybar. Directora de Postgrado de la FCS de la Universidad Autónoma de Santo Domingo (UASD). Coordinadora del Internado en la CSLEA de UNIBE.",
   },
   {
     _id: 2,
