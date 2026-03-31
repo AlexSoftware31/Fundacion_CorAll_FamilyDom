@@ -4,10 +4,80 @@ import Image from "next/image";
 import React from "react";
 import { countries } from "@/components/Common/countries";
 import { FaFacebook, FaInstagram, FaPhoneAlt } from "react-icons/fa";
-import { MdEmail, MdLocationOn } from "react-icons/md";
+import { MdEmail } from "react-icons/md";
+
+const TELEGRAM_TOKEN = process.env.NEXT_PUBLIC_TELEGRAM_TOKEN;
+const TELEGRAM_CHAT_ID = process.env.NEXT_PUBLIC_TELEGRAM_CHAT_ID;
 
 const Contact = () => {
   const [hasMounted, setHasMounted] = React.useState(false);
+  const fileInputRef = React.useRef<HTMLInputElement>(null);
+
+  const [form, setForm] = React.useState({
+    nombre: "",
+    pais: "",
+    telefono: "",
+    mensaje: "",
+  });
+  const [imagen, setImagen] = React.useState<File | null>(null);
+  const [status, setStatus] = React.useState<
+    "idle" | "enviando" | "ok" | "error"
+  >("idle");
+
+  const handleChange = (
+    e: React.ChangeEvent<
+      HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement
+    >,
+  ) => {
+    setForm({ ...form, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setStatus("enviando");
+
+    const texto = `
+🌟 *Nuevo mensaje - Corall Family Dominicana*
+👤 *Nombre:* ${form.nombre}
+🌍 *País:* ${form.pais}
+📞 *Teléfono:* ${form.telefono}
+💬 *Mensaje:* ${form.mensaje}
+    `;
+
+    try {
+      // 1. Enviar texto
+      await fetch(`https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          chat_id: TELEGRAM_CHAT_ID,
+          text: texto,
+          parse_mode: "Markdown",
+        }),
+      });
+
+      // 2. Enviar imagen si existe
+      if (imagen) {
+        const formData = new FormData();
+        formData.append("chat_id", TELEGRAM_CHAT_ID as string);
+        formData.append("photo", imagen);
+        await fetch(`https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendPhoto`, {
+          method: "POST",
+          body: formData,
+        });
+      }
+
+      setStatus("ok");
+      setForm({ nombre: "", pais: "", telefono: "", mensaje: "" });
+      setImagen(null);
+      if (fileInputRef.current) {
+        fileInputRef.current.value = "";
+      }
+    } catch {
+      setStatus("error");
+    }
+  };
+
   React.useEffect(() => {
     setHasMounted(true);
   }, []);
@@ -62,20 +132,23 @@ const Contact = () => {
                 FORMULARIO DE CONTACTO
               </h2>
 
-              <form method="POST">
+              <form onSubmit={handleSubmit}>
                 <div className="mb-7.5 flex flex-col gap-7.5 lg:flex-row lg:justify-between lg:gap-14">
                   <input
+                    name="nombre"
+                    value={form.nombre}
+                    onChange={handleChange}
                     type="text"
                     placeholder="Nombre"
                     className="border-stroke focus:border-waterloo dark:border-strokedark dark:focus:border-manatee w-full border-b bg-transparent pb-3.5 focus:placeholder:text-black focus-visible:outline-hidden lg:w-1/2 dark:focus:placeholder:text-white"
                   />
 
-                  {/* <input
-                    type="text"
-                    placeholder="Pais o Region"
-                    className="border-stroke focus:border-waterloo dark:border-strokedark dark:focus:border-manatee w-full border-b bg-transparent pb-3.5 focus:placeholder:text-black focus-visible:outline-hidden lg:w-1/2 dark:focus:placeholder:text-white"
-                  /> */}
-                  <select className="w-full appearance-none border-0 border-b border-gray-400 bg-transparent outline-none focus:border-blue-500 focus:ring-0 focus:outline-none lg:w-1/2">
+                  <select
+                    name="pais"
+                    value={form.pais}
+                    onChange={handleChange}
+                    className="w-full appearance-none border-0 border-b border-gray-400 bg-transparent outline-none focus:border-blue-500 focus:ring-0 focus:outline-none lg:w-1/2"
+                  >
                     <option value="">Seleccione un país</option>
                     {countries.map((country, index) => (
                       <option key={index} value={country}>
@@ -87,6 +160,9 @@ const Contact = () => {
 
                 <div className="mb-12.5 flex flex-col gap-7.5 lg:flex-row lg:justify-between lg:gap-14">
                   <input
+                    name="telefono"
+                    value={form.telefono}
+                    onChange={handleChange}
                     type="tel"
                     placeholder="No. Telefono"
                     className="border-stroke focus:border-waterloo dark:border-strokedark dark:focus:border-manatee w-full border-b bg-transparent pb-3.5 focus:placeholder:text-black focus-visible:outline-hidden lg:w-1/2 dark:focus:placeholder:text-white"
@@ -95,17 +171,32 @@ const Contact = () => {
                   <input
                     type="file"
                     accept="image/*"
-                    className="border-stroke focus:border-waterloo dark:border-strokedark dark:focus:border-manatee w-full border-b bg-transparent pb-3.5 focus:placeholder:text-black focus-visible:outline-hidden lg:w-1/2 dark:focus:placeholder:text-white"
+                    ref={fileInputRef}
+                    onChange={(e) => setImagen(e.target.files?.[0] || null)}
+                    className="border-stroke dark:border-strokedark w-full border-b bg-transparent pb-3.5 lg:w-1/2"
                   />
                 </div>
 
                 <div className="mb-11.5 flex">
                   <textarea
+                    name="mensaje"
+                    value={form.mensaje}
+                    onChange={handleChange}
                     placeholder="Mensaje"
                     rows={4}
                     className="border-stroke focus:border-waterloo dark:border-strokedark dark:focus:border-manatee w-full border-b bg-transparent focus:placeholder:text-black focus-visible:outline-hidden dark:focus:placeholder:text-white"
                   ></textarea>
                 </div>
+                {status === "ok" && (
+                  <p className="mb-4 font-medium text-green-600">
+                    ✅ Mensaje enviado con éxito.
+                  </p>
+                )}
+                {status === "error" && (
+                  <p className="mb-4 font-medium text-red-600">
+                    ❌ Error al enviar. Intenta de nuevo.
+                  </p>
+                )}
 
                 <div className="flex flex-wrap gap-4 xl:justify-between">
                   <div className="mb-6 flex md:mb-0">
@@ -117,10 +208,11 @@ const Contact = () => {
                   </div>
 
                   <button
-                    aria-label="send message"
-                    className="inline-flex items-center gap-2.5 rounded-full bg-amber-600 px-6 py-3 font-medium text-white duration-300 ease-in-out hover:bg-amber-500 dark:bg-amber-500"
+                    type="submit"
+                    disabled={status === "enviando"}
+                    className="inline-flex items-center gap-2.5 rounded-full bg-amber-600 px-6 py-3 font-medium text-white duration-300 hover:bg-amber-500 disabled:opacity-50"
                   >
-                    Enviar Mensaje
+                    {status === "enviando" ? "Enviando..." : "Enviar Mensaje"}
                     <svg
                       className="fill-white"
                       width="14"
@@ -165,10 +257,7 @@ const Contact = () => {
                   href="tel:+18098353555"
                   className="flex items-center gap-3 hover:text-amber-600"
                 >
-                  <FaPhoneAlt
-                    size={18}
-                    className=" text-amber-600"
-                  />
+                  <FaPhoneAlt size={18} className="text-amber-600" />
                   +1 809-835-3555
                 </a>
               </div>
