@@ -3,8 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-
-import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 
 const Header = () => {
@@ -13,6 +11,7 @@ const Header = () => {
   const [stickyMenu, setStickyMenu] = useState(false);
 
   const pathUrl = usePathname();
+  const index = "/";
 
   // Sticky menu
   const handleStickyMenu = () => {
@@ -139,7 +138,9 @@ const Header = () => {
                       href={`${menuItem.path}`}
                       className={
                         pathUrl === menuItem.path
-                          ? "text-amber-600 hover:text-amber-600"
+                          ? pathUrl === index
+                            ? "text-amber-800 hover:text-amber-800"
+                            : "text-amber-600 hover:text-amber-600"
                           : "hover:text-amber-600"
                       }
                     >
@@ -152,15 +153,6 @@ const Header = () => {
           </nav>
 
           <div className="mt-7 flex items-center gap-6 xl:mt-0">
-            {/*<ThemeToggler />
-
-            {/* <Link
-              href="https://github.com/NextJSTemplates/solid-nextjs"
-              className="text-regular font-medium text-waterloo hover:text-primary"
-            >
-              GitHub Repo 🌟
-            </Link> */}
-
             <Link
               href="/donar"
               className="text-regular flex items-center justify-center rounded-full bg-amber-600 px-7.5 py-2.5 text-white duration-300 ease-in-out hover:bg-amber-500"

@@ -34,7 +34,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative h-[90vh] overflow-hidden">
+    <section className="relative h-[85vh] overflow-hidden">
       {/* Imagen */}
       <Image
         src={slides[current].image}
