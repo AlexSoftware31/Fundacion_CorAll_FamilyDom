@@ -46,9 +46,15 @@ const menuData: Menu[] = [
       },
       {
         id: 3.2,
-        title: "Estatutos y Transparencia",
+        title: "Estatutos",
         newTab: false,
-        path: "/estructura",
+        path: "/transparencia",
+      },
+      {
+        id: 3.2,
+        title: "Transparencia",
+        newTab: false,
+        path: "/transparencia",
       },
     ],
   },

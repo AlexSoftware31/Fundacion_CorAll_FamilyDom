@@ -318,18 +318,18 @@ const Footer = () => {
             >
               <ul className="flex items-center gap-8">
                 <li>
-                  <a href="#" className="hover:text-amber-600">
-                    English
+                  <a href="/legal" className="hover:text-amber-600">
+                    Aviso Legal
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-amber-600">
+                  <a href="/privacy" className="hover:text-amber-600">
                     Politicas de Privacidad
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-amber-600">
-                    Soporte
+                  <a href="/cookies" className="hover:text-amber-600">
+                    Politicas de Cookies
                   </a>
                 </li>
               </ul>
@@ -353,7 +353,7 @@ const Footer = () => {
               viewport={{ once: true }}
               className="animate_top"
             >
-              <p>&copy; {new Date().getFullYear()} CorAll Family Dominicana</p>
+              <p>&copy; {new Date().getFullYear()} CorAll Family Dominicana. Todos los derechos reservados.</p>
             </motion.div>
 
             <motion.div

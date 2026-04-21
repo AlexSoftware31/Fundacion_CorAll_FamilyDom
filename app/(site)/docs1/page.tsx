@@ -26,7 +26,7 @@ export default function Docs1Page() {
             <div className="w-full px-4 lg:w-3/4">
               <div className="blog-details blog-details-docs shadow-three dark:bg-gray-dark rounded-xs bg-white px-8 py-11 sm:p-13.75 lg:mb-5 lg:px-8 xl:p-13.75">
                 <h2
-                  className="mb-5 text-2xl font-semibold !text-amber-600 md:text-4xl"
+                  className="mb-5 text-2xl font-semibold text-amber-600! md:text-4xl"
                   style={{ fontSize: "33px" }}
                 >
                   Tipos de Cardiopatía Congénita
