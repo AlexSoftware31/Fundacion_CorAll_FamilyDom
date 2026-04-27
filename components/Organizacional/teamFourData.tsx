@@ -35,6 +35,13 @@ const teamFourData: Blog[] = [
     title: "Dra. Rosanny Minaya Silverio",
     metadata:
       "Odontóloga Magister en Odontopediatría",
+  },
+  {
+    _id: 6,
+    mainImage: "/images/blog/org/org4-61.png",
+    title: "Dra. Katherine Féliz De Los Santos ",
+    metadata:
+      "Pediatra – Neonatóloga Médico Ayudante del departamento de  Neonatologia de la Ciudad Sanitaria Dr. Luis E. Aybar. ",
   }
   
 ];

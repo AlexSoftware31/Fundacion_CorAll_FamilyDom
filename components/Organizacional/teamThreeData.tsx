@@ -31,6 +31,13 @@ const teamThreeData: Blog[] = [
   },
   {
     _id: 5,
+    mainImage: "/images/blog/org/org3-6.png",   
+    title: "Dr. Edisson Rafael Féliz Féliz",
+    metadata:
+      "Padiatra Director del Servicio Regional de Salud Metropolitano Director Médico del Centro Médico Dr. Richarson Cruz ",
+  },
+  {
+    _id: 6,
     mainImage: "/images/blog/org/org3-40.png",
     title: "Lic. Cristian Baez",
     metadata:
