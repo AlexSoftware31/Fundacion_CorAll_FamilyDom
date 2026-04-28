@@ -24,17 +24,17 @@ const teamThreeData: Blog[] = [
   },
   {
     _id: 4,
+    mainImage: "/images/blog/org/org3-6.png",
+    title: "Dr. Edisson Rafael Féliz Féliz",
+    metadata:
+      "Padiatra Director del Servicio Regional de Salud Metropolitano Director Médico del Centro Médico Dr. Richarson Cruz ",
+  },
+  {
+    _id: 5,
     mainImage: "/images/blog/org/org3-55.jpg",
     title: "Dr. José Miguel Paliza",
     metadata:
       "Doctor en Medicina por la Universidad Autónoma de Santo Domingo (UASD) Especialidad en Neurioradiologia en el Hospital La Timone de  la Universidad  de Aix-Marseille. Director médico del Centro Diagnóstica S.A. Neuroradiólogo en CECANOT.",
-  },
-  {
-    _id: 5,
-    mainImage: "/images/blog/org/org3-6.png",   
-    title: "Dr. Edisson Rafael Féliz Féliz",
-    metadata:
-      "Padiatra Director del Servicio Regional de Salud Metropolitano Director Médico del Centro Médico Dr. Richarson Cruz ",
   },
   {
     _id: 6,
