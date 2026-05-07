@@ -42,6 +42,13 @@ const teamFourData: Blog[] = [
     title: "Dra. Katherine Féliz De Los Santos ",
     metadata:
       "Pediatra – Neonatóloga Médico Ayudante del departamento de  Neonatologia de la Ciudad Sanitaria Dr. Luis E. Aybar. ",
+  },
+  {
+    _id: 7,
+    mainImage: "/images/blog/org/org4-99.png",
+    title: "Lic. Yokaira E. Medina",
+    metadata:
+      "Psicóloga Clínica Máster en Terapia Sexual y de Pareja Psicóloga del Programa SAI en RD.",
   }
   
 ];
