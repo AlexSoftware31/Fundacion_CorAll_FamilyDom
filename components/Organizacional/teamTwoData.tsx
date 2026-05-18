@@ -23,7 +23,7 @@ const teamTwoData: Blog[] = [
     title: "Lic. Hally Kosiris Sánchez",
     slug: "Analista de Programas Sociales",
     metadata:
-      "Lic. En dirección y gestión empresarial, Concentración en Inteligencia de Negocios. Analista Junior de Proyectos, Fundraising y Gestión Financiera de la Asociación Hueco Caribe.",
+      "Licenciada en Dirección y Gestión Empresarial, concentración en Inteligencia de Negocios. Analista Junior de Proyectos, Fundraising y Gestión Financiera de la Asociación Hueco Caribe.",
   },
   {
     _id: 4,
@@ -31,7 +31,7 @@ const teamTwoData: Blog[] = [
     title: "Lic. Sally Kosiris Sánchez",
     slug: "Analista de Medios Digitales",
     metadata:
-      "Lic. En dirección y gestión empresarial, Concentración en Inteligencia de Negocios. Analista de logística y operaciones, Vytal RD.",
+      "Licenciada en Dirección y Gestión Empresarial, concentración en Inteligencia de Negocios. Logistics & Operations Analyst en Vytal RD.",
   },
 ];
 
