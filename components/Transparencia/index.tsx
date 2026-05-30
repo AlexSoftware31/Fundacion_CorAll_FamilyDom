@@ -124,7 +124,7 @@ const Transparencia = () => {
           <p className="mb-3 text-sm leading-relaxed text-gray-600 dark:text-gray-400">
             En la{" "}
             <strong className="text-black dark:text-white">
-              Fundación CorAll Family Dominicana
+              Fundación CorAll Dominicana
             </strong>
             , la transparencia es un principio fundamental que guía cada una de
             nuestras acciones. Trabajamos con un firme compromiso ético,
@@ -269,7 +269,7 @@ const Transparencia = () => {
           </p>
           <p className="mb-4 text-sm leading-relaxed text-gray-700 dark:text-gray-300">
             Descarga el documento oficial actual de los estatutos legales de la
-            Fundación CorAll Family Dominicana.
+            Fundación CorAll Dominicana.
           </p>
           <a
             href="/2026/estatutos-legales.pdf"

@@ -59,7 +59,7 @@ const Legal = () => {
           </h1>
           
           <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
-             Fundación CorAll Family Dominicana - Última actualización: 2026
+             Fundación CorAll Dominicana - Última actualización: 2026
           </p>
         </motion.div>
  
@@ -160,7 +160,7 @@ const Legal = () => {
             Para cualquier duda sobre este Aviso Legal, el usuario puede contactar a través del correo electrónico.
           </p>
           <a
-            href="mailto:corallfamilydominicana@gmail.com"
+            href="mailto:coralldominicana@gmail.com"
             className="inline-flex items-center gap-2 rounded-full border border-amber-500 px-5 py-2 text-sm font-medium text-amber-600 transition hover:bg-amber-50 dark:text-amber-400 dark:hover:bg-amber-950"
           >
             Contactar

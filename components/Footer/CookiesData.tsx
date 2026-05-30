@@ -36,7 +36,7 @@ const sections = [
   {
     number: "6",
     title: "Actualización de la política",
-    body: "La Fundación Coral Family Dominicana podrá actualizar esta Política de Cookies en función de cambios legales o técnicos. Se recomienda revisarla periódicamente.",
+    body: "La Fundación Coral Dominicana podrá actualizar esta Política de Cookies en función de cambios legales o técnicos. Se recomienda revisarla periódicamente.",
   },
 ];
 

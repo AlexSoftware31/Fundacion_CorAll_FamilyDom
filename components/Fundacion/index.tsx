@@ -64,7 +64,7 @@ const Fundacion = () => {
               </h2>
 
               <p style={{ textAlign: "justify" }}>
-                La <strong> Fundacion CorAll Family Dominicana </strong> es una
+                La <strong> Fundacion CorAll Dominicana </strong> es una
                 organización sin fines de lucro creada con el firme propósito de{" "}
                 <b>
                   facilitar diagnósticos precisos, tratamientos médicos
@@ -92,7 +92,7 @@ const Fundacion = () => {
               <br></br>
               <p style={{ textAlign: "justify" }}>
                 <strong>
-                  En la Fundación CorAll Family Dominicana creemos firmemente
+                  En la Fundación CorAll  Dominicana creemos firmemente
                   que la vida y la salud no deben ser un privilegio, sino un
                   derecho fundamental para todos.
                 </strong>
@@ -120,7 +120,7 @@ const Fundacion = () => {
               <div>
                 <Image
                   src="/images/about/fundacion11.png"
-                  alt="Fundación CorAll Family"
+                  alt="Fundación CorAll "
                   width={700}
                   height={550}
                   className="h-full w-full rounded-lg object-cover shadow-xl"

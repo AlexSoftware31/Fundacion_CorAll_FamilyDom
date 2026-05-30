@@ -59,7 +59,7 @@ const Privacy = () => {
           </h1>
           
           <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
-             Fundación CorAll Family Dominicana - Última actualización: 2026
+             Fundación CorAll Dominicana - Última actualización: 2026
           </p>
         </motion.div>
  
@@ -83,7 +83,7 @@ const Privacy = () => {
  
           <div className="px-6 py-4">
             <p className="mb-5 text-sm leading-relaxed text-gray-600 dark:text-gray-400">
-              La presente Política de Privacidad regula el tratamiento de los datos personales de los usuarios del sitio web de la Fundación Coral Family Dominicana.
+              La presente Política de Privacidad regula el tratamiento de los datos personales de los usuarios del sitio web de la Fundación Coral Dominicana.
               La fundación garantiza la protección de los datos personales conforme a lo establecido en la Ley No. 172-13 sobre Protección de Datos de Carácter Personal de la República Dominicana.
             </p>
  

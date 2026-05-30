@@ -57,7 +57,7 @@ const Donar = () => {
               </h2>
 
               <p className="mb-6" style={{ textAlign: "justify" }}>
-                En la Fundación Coral Family Dominicana hemos asumido el
+                En la Fundación Coral Dominicana hemos asumido el
                 compromiso de que ningún niño o niña vea limitada su oportunidad
                 de vivir por falta de recursos o acceso a servicios de salud. Tu
                 donación se convierte en esperanza, tratamiento y acompañamiento

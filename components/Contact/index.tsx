@@ -201,7 +201,7 @@ const Contact = () => {
                 <div className="flex flex-wrap gap-4 xl:justify-between">
                   <div className="mb-6 flex md:mb-0">
                     <p className="flex max-w-106.25 cursor-pointer pl-5 text-amber-600 select-none">
-                      En la Fundación corAll Family Dominicana trabajamos con
+                      En la Fundación corAll Dominicana trabajamos con
                       esperanza, convicción y amor, porque cada latido cuenta y
                       cada vida importa.
                     </p>
@@ -267,7 +267,7 @@ const Contact = () => {
                   className="flex items-center gap-3 hover:text-amber-600"
                 >
                   <MdEmail size={20} className="text-amber-600" />
-                  corallfamilydominicana@gmail.com
+                  coralldominicana@gmail.com
                 </a>
               </div>
               <div className="5 mb-7">

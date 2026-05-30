@@ -42,16 +42,16 @@ const Footer = () => {
               >
                 <a href="/" className="relative">
                   <Image
-                    width={180}
+                    width={220}
                     height={80}
-                    src="/images/logo/Fundacion_Corall _Family_Dominicana.png"
+                    src="/images/logo/fundacion_CorAllDominicana_logo.png"
                     alt="Logo"
                     className="dark:hidden"
                   />
                   <Image
-                    width={180}
+                    width={220}
                     height={80}
-                    src="/images/logo/Fundacion_Corall _Family_Dominicana.png"
+                    src="/images/logo/fundacion_CorAllDominicana_logo.png"
                     alt="Logo"
                     className="hidden dark:block"
                   />
@@ -83,7 +83,7 @@ const Footer = () => {
                     size={18}
                     className="mr-2 inline-block text-amber-600"
                   />
-                  CorAllFamilyDominicana@gmail.com
+                  CorAllDominicana@gmail.com
                 </a>
                 <br />
                 {isContactPage && (
@@ -353,7 +353,7 @@ const Footer = () => {
               viewport={{ once: true }}
               className="animate_top"
             >
-              <p>&copy; {new Date().getFullYear()} CorAll Family Dominicana. Todos los derechos reservados.</p>
+              <p>&copy; {new Date().getFullYear()} CorAll Dominicana. Todos los derechos reservados.</p>
             </motion.div>
 
             <motion.div

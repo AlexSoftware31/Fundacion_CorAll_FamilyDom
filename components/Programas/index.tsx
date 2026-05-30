@@ -34,7 +34,7 @@ const Programas = () => {
               </h2>
 
               <p className="mb-6 text-justify">
-                En la Fundación CorAll Family Dominicana, nuestros programas
+                En la Fundación CorAll Dominicana, nuestros programas
                 sociales se centran en brindar un apoyo integral a niños y niñas
                 con cardiopatías congénitas en todo el mundo. Trabajamos para
                 garantizar que cada pequeño reciba la atención médica
@@ -135,7 +135,7 @@ const Programas = () => {
 
               <p className="text-justify">
                 <b>
-                  En la Fundación CorAll Family Dominicana trabajamos con
+                  En la Fundación CorAll Dominicana trabajamos con
                   esperanza, convicción y amor, porque cada latido cuenta y cada
                   vida importa.
                 </b>

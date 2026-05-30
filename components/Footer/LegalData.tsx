@@ -8,7 +8,7 @@ const dataRows = [
   },
   {
     label: "Correo electrónico",
-    value: "corallfamilydominicana@gmail.com",
+    value: "coralldominicana@gmail.com",
     isEmail: true,
   },
   {
@@ -22,7 +22,7 @@ const sections = [
   {
     number: "2",
     title: "Objeto del sitio web",
-    body: "El presente sitio web tiene como finalidad ofrecer información sobre la labor de la Fundación Coral Family Dominicana, sus programas sociales, actividades, campañas y acciones destinadas a apoyar a niños y niñas con cardiopatías congénitas y sus familias. Los contenidos publicados tienen un carácter informativo, educativo y social, y en ningún caso sustituyen asesoramiento médico, legal o profesional.",
+    body: "El presente sitio web tiene como finalidad ofrecer información sobre la labor de la Fundación Coral Dominicana, sus programas sociales, actividades, campañas y acciones destinadas a apoyar a niños y niñas con cardiopatías congénitas y sus familias. Los contenidos publicados tienen un carácter informativo, educativo y social, y en ningún caso sustituyen asesoramiento médico, legal o profesional.",
   },
   {
     number: "3",
@@ -32,22 +32,22 @@ const sections = [
   {
     number: "4",
     title: "Protección de datos personales",
-    body: "En cumplimiento de la Ley No. 172-13 sobre Protección de Datos de Carácter Personal, los datos personales que el usuario facilite a través de este sitio web serán tratados con estricta confidencialidad.Los datos serán incorporados a un sistema de información titularidad de la Fundación Coral Family Dominicana con la finalidad de: Gestionar consultas, donaciones y solicitudes. Brindar información sobre actividades y programas. Mejorar los servicios ofrecidos por la fundación.",
+    body: "En cumplimiento de la Ley No. 172-13 sobre Protección de Datos de Carácter Personal, los datos personales que el usuario facilite a través de este sitio web serán tratados con estricta confidencialidad.Los datos serán incorporados a un sistema de información titularidad de la Fundación Coral Dominicana con la finalidad de: Gestionar consultas, donaciones y solicitudes. Brindar información sobre actividades y programas. Mejorar los servicios ofrecidos por la fundación.",
   },
   {
     number: "5",
     title: "Propiedad intelectual e industrial",
-    body: "Todos los contenidos del sitio web (textos, imágenes, logotipos, diseño, estructura, etc.) son propiedad de la Fundación Coral Family Dominicana o cuentan con las licencias correspondientes. Queda prohibida su reproducción, distribución o uso sin autorización previa y expresa de la fundación, salvo para uso personal y no comercial.",
+    body: "Todos los contenidos del sitio web (textos, imágenes, logotipos, diseño, estructura, etc.) son propiedad de la Fundación Coral Dominicana o cuentan con las licencias correspondientes. Queda prohibida su reproducción, distribución o uso sin autorización previa y expresa de la fundación, salvo para uso personal y no comercial.",
   },
   {
     number: "6",
     title: "Enlaces a terceros",
-    body: "Este sitio web puede contener enlaces a páginas externas de terceros. La Fundación Coral Family Dominicana no se responsabiliza por: el contenido de dichos sitios, sus políticas de privacidad y el uso que hagan de los datos personales. Se recomienda al usuario revisar los avisos legales de dichos sitios.",
+    body: "Este sitio web puede contener enlaces a páginas externas de terceros. La Fundación Coral Dominicana no se responsabiliza por: el contenido de dichos sitios, sus políticas de privacidad y el uso que hagan de los datos personales. Se recomienda al usuario revisar los avisos legales de dichos sitios.",
   },
   {
     number: "7",
     title: "Limitación de responsabilidad",
-    body: "La Fundación Coral Family Dominicana no garantiza: la disponibilidad continua del sitio web, la ausencia de errores en los contenidos y la inexistencia de virus u otros elementos dañinos. Asimismo, no se hace responsable de: el uso indebido del sitio por parte de los usuarios, daños derivados del acceso o uso de la web y contenidos de terceros.",
+    body: "La Fundación Coral Dominicana no garantiza: la disponibilidad continua del sitio web, la ausencia de errores en los contenidos y la inexistencia de virus u otros elementos dañinos. Asimismo, no se hace responsable de: el uso indebido del sitio por parte de los usuarios, daños derivados del acceso o uso de la web y contenidos de terceros.",
   },
   {
     number: "8",

@@ -38,14 +38,14 @@ const Header = () => {
         <div className="flex w-full items-center justify-between xl:w-1/4">
           <a href="/">
             <Image
-              src="/images/logo/Fundacion_Corall _Family_Dominicana.png"
+              src="/images/logo/Fundacion_CorAllDominicana_logo.png"
               alt="logo"
               width={150.03}
               height={50}
               className="hidden w-full dark:block"
             />
             <Image
-              src="/images/logo/Fundacion_Corall _Family_Dominicana.png"
+              src="/images/logo/Fundacion_CorAllDominicana_logo.png"
               alt="logo"
               width={150.03}
               height={50}
@@ -139,7 +139,7 @@ const Header = () => {
                       className={
                         pathUrl === menuItem.path
                           ? pathUrl === index
-                            ? "text-amber-800 hover:text-amber-800"
+                            ? "text-orange-700 hover:text-orange-700"
                             : "text-amber-600 hover:text-amber-600"
                           : "hover:text-amber-600"
                       }
