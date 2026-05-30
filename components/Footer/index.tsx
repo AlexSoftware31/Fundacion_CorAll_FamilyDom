@@ -44,14 +44,14 @@ const Footer = () => {
                   <Image
                     width={220}
                     height={80}
-                    src="/images/logo/fundacion_CorAllDominicana_logo.png"
+                    src="/images/logo/fundacion_CorAllDominicana.png"
                     alt="Logo"
                     className="dark:hidden"
                   />
                   <Image
                     width={220}
                     height={80}
-                    src="/images/logo/fundacion_CorAllDominicana_logo.png"
+                    src="/images/logo/fundacion_CorAllDominicana.png"
                     alt="Logo"
                     className="hidden dark:block"
                   />
